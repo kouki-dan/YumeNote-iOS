@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E06149B1BB6C6280015A932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E06149A1BB6C6280015A932 /* AppDelegate.swift */; };
+		1E06149D1BB6C6280015A932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E06149C1BB6C6280015A932 /* ViewController.swift */; };
+		1E0614A01BB6C6280015A932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E06149E1BB6C6280015A932 /* Main.storyboard */; };
+		1E0614A21BB6C6280015A932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0614A11BB6C6280015A932 /* Assets.xcassets */; };
+		1E0614A51BB6C6280015A932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0614A31BB6C6280015A932 /* LaunchScreen.storyboard */; };
+		1E0614B01BB6C6280015A932 /* YumeNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0614AF1BB6C6280015A932 /* YumeNoteTests.swift */; };
+		1E0614BB1BB6C6280015A932 /* YumeNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0614BA1BB6C6280015A932 /* YumeNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E0614AC1BB6C6280015A932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E06148F1BB6C6280015A932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0614961BB6C6280015A932;
+			remoteInfo = YumeNote;
+		};
+		1E0614B71BB6C6280015A932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E06148F1BB6C6280015A932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0614961BB6C6280015A932;
+			remoteInfo = YumeNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E0614971BB6C6280015A932 /* YumeNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumeNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E06149A1BB6C6280015A932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E06149C1BB6C6280015A932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E06149F1BB6C6280015A932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E0614A11BB6C6280015A932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E0614A41BB6C6280015A932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E0614A61BB6C6280015A932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0614AB1BB6C6280015A932 /* YumeNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumeNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0614AF1BB6C6280015A932 /* YumeNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumeNoteTests.swift; sourceTree = "<group>"; };
+		1E0614B11BB6C6280015A932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0614B61BB6C6280015A932 /* YumeNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumeNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0614BA1BB6C6280015A932 /* YumeNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumeNoteUITests.swift; sourceTree = "<group>"; };
+		1E0614BC1BB6C6280015A932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E0614941BB6C6280015A932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0614A81BB6C6280015A932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0614B31BB6C6280015A932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E06148E1BB6C6280015A932 = {
+			isa = PBXGroup;
+			children = (
+				1E0614991BB6C6280015A932 /* YumeNote */,
+				1E0614AE1BB6C6280015A932 /* YumeNoteTests */,
+				1E0614B91BB6C6280015A932 /* YumeNoteUITests */,
+				1E0614981BB6C6280015A932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E0614981BB6C6280015A932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E0614971BB6C6280015A932 /* YumeNote.app */,
+				1E0614AB1BB6C6280015A932 /* YumeNoteTests.xctest */,
+				1E0614B61BB6C6280015A932 /* YumeNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E0614991BB6C6280015A932 /* YumeNote */ = {
+			isa = PBXGroup;
+			children = (
+				1E06149A1BB6C6280015A932 /* AppDelegate.swift */,
+				1E06149C1BB6C6280015A932 /* ViewController.swift */,
+				1E06149E1BB6C6280015A932 /* Main.storyboard */,
+				1E0614A11BB6C6280015A932 /* Assets.xcassets */,
+				1E0614A31BB6C6280015A932 /* LaunchScreen.storyboard */,
+				1E0614A61BB6C6280015A932 /* Info.plist */,
+			);
+			path = YumeNote;
+			sourceTree = "<group>";
+		};
+		1E0614AE1BB6C6280015A932 /* YumeNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0614AF1BB6C6280015A932 /* YumeNoteTests.swift */,
+				1E0614B11BB6C6280015A932 /* Info.plist */,
+			);
+			path = YumeNoteTests;
+			sourceTree = "<group>";
+		};
+		1E0614B91BB6C6280015A932 /* YumeNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0614BA1BB6C6280015A932 /* YumeNoteUITests.swift */,
+				1E0614BC1BB6C6280015A932 /* Info.plist */,
+			);
+			path = YumeNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E0614961BB6C6280015A932 /* YumeNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0614BF1BB6C6280015A932 /* Build configuration list for PBXNativeTarget "YumeNote" */;
+			buildPhases = (
+				1E0614931BB6C6280015A932 /* Sources */,
+				1E0614941BB6C6280015A932 /* Frameworks */,
+				1E0614951BB6C6280015A932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YumeNote;
+			productName = YumeNote;
+			productReference = 1E0614971BB6C6280015A932 /* YumeNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E0614AA1BB6C6280015A932 /* YumeNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0614C21BB6C6280015A932 /* Build configuration list for PBXNativeTarget "YumeNoteTests" */;
+			buildPhases = (
+				1E0614A71BB6C6280015A932 /* Sources */,
+				1E0614A81BB6C6280015A932 /* Frameworks */,
+				1E0614A91BB6C6280015A932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0614AD1BB6C6280015A932 /* PBXTargetDependency */,
+			);
+			name = YumeNoteTests;
+			productName = YumeNoteTests;
+			productReference = 1E0614AB1BB6C6280015A932 /* YumeNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E0614B51BB6C6280015A932 /* YumeNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0614C51BB6C6280015A932 /* Build configuration list for PBXNativeTarget "YumeNoteUITests" */;
+			buildPhases = (
+				1E0614B21BB6C6280015A932 /* Sources */,
+				1E0614B31BB6C6280015A932 /* Frameworks */,
+				1E0614B41BB6C6280015A932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0614B81BB6C6280015A932 /* PBXTargetDependency */,
+			);
+			name = YumeNoteUITests;
+			productName = YumeNoteUITests;
+			productReference = 1E0614B61BB6C6280015A932 /* YumeNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E06148F1BB6C6280015A932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kouki Siato";
+				TargetAttributes = {
+					1E0614961BB6C6280015A932 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1E0614AA1BB6C6280015A932 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1E0614961BB6C6280015A932;
+					};
+					1E0614B51BB6C6280015A932 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1E0614961BB6C6280015A932;
+					};
+				};
+			};
+			buildConfigurationList = 1E0614921BB6C6280015A932 /* Build configuration list for PBXProject "YumeNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E06148E1BB6C6280015A932;
+			productRefGroup = 1E0614981BB6C6280015A932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E0614961BB6C6280015A932 /* YumeNote */,
+				1E0614AA1BB6C6280015A932 /* YumeNoteTests */,
+				1E0614B51BB6C6280015A932 /* YumeNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E0614951BB6C6280015A932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0614A51BB6C6280015A932 /* LaunchScreen.storyboard in Resources */,
+				1E0614A21BB6C6280015A932 /* Assets.xcassets in Resources */,
+				1E0614A01BB6C6280015A932 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0614A91BB6C6280015A932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0614B41BB6C6280015A932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E0614931BB6C6280015A932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E06149D1BB6C6280015A932 /* ViewController.swift in Sources */,
+				1E06149B1BB6C6280015A932 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0614A71BB6C6280015A932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0614B01BB6C6280015A932 /* YumeNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0614B21BB6C6280015A932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0614BB1BB6C6280015A932 /* YumeNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E0614AD1BB6C6280015A932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0614961BB6C6280015A932 /* YumeNote */;
+			targetProxy = 1E0614AC1BB6C6280015A932 /* PBXContainerItemProxy */;
+		};
+		1E0614B81BB6C6280015A932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0614961BB6C6280015A932 /* YumeNote */;
+			targetProxy = 1E0614B71BB6C6280015A932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E06149E1BB6C6280015A932 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E06149F1BB6C6280015A932 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E0614A31BB6C6280015A932 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E0614A41BB6C6280015A932 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E0614BD1BB6C6280015A932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E0614BE1BB6C6280015A932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E0614C01BB6C6280015A932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YumeNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukilab.YumeNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E0614C11BB6C6280015A932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YumeNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukilab.YumeNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E0614C31BB6C6280015A932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YumeNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukilab.YumeNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YumeNote.app/YumeNote";
+			};
+			name = Debug;
+		};
+		1E0614C41BB6C6280015A932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YumeNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukilab.YumeNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YumeNote.app/YumeNote";
+			};
+			name = Release;
+		};
+		1E0614C61BB6C6280015A932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YumeNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukilab.YumeNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YumeNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1E0614C71BB6C6280015A932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YumeNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukilab.YumeNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YumeNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E0614921BB6C6280015A932 /* Build configuration list for PBXProject "YumeNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0614BD1BB6C6280015A932 /* Debug */,
+				1E0614BE1BB6C6280015A932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0614BF1BB6C6280015A932 /* Build configuration list for PBXNativeTarget "YumeNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0614C01BB6C6280015A932 /* Debug */,
+				1E0614C11BB6C6280015A932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E0614C21BB6C6280015A932 /* Build configuration list for PBXNativeTarget "YumeNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0614C31BB6C6280015A932 /* Debug */,
+				1E0614C41BB6C6280015A932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E0614C51BB6C6280015A932 /* Build configuration list for PBXNativeTarget "YumeNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0614C61BB6C6280015A932 /* Debug */,
+				1E0614C71BB6C6280015A932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E06148F1BB6C6280015A932 /* Project object */;
+}
