@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A29E493188655720CDF4324728B3501C4AF48808",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A29E493188655720CDF4324728B3501C4AF48808" : 0,
+    "91AD195F0E2A14EFF8D9C3F096570500C700CD9B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1563EFD5-4FE4-46B5-BB94-F0ECACA5EB6E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A29E493188655720CDF4324728B3501C4AF48808" : "YumeNote-iOS\/",
+    "91AD195F0E2A14EFF8D9C3F096570500C700CD9B" : "fortune-cat-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YumeNote",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YumeNote.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:fortune-cat\/fortune-cat-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91AD195F0E2A14EFF8D9C3F096570500C700CD9B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kouki-dan\/YumeNote-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A29E493188655720CDF4324728B3501C4AF48808"
+    }
+  ]
+}
