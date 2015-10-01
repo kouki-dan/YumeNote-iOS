@@ -104,6 +104,10 @@
 		1E0614991BB6C6280015A932 /* YumeNote */ = {
 			isa = PBXGroup;
 			children = (
+				1EE969CF1BBD7BF600568793 /* Views */,
+				1EE969CE1BBD7BE300568793 /* DataModels */,
+				1EE969CD1BBD7BD600568793 /* Storyboards */,
+				1EE969CC1BBD7BC700568793 /* ViewControllers */,
 				1E06149A1BB6C6280015A932 /* AppDelegate.swift */,
 				1E06149C1BB6C6280015A932 /* ViewController.swift */,
 				1E06149E1BB6C6280015A932 /* Main.storyboard */,
@@ -138,6 +142,34 @@
 				8ABEEF274B5224DC676193F1 /* Pods_YumeNote.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EE969CC1BBD7BC700568793 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EE969CD1BBD7BD600568793 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1EE969CE1BBD7BE300568793 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		1EE969CF1BBD7BF600568793 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5CB4D90213AE2F777607A954 /* Pods */ = {
