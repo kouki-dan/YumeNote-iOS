@@ -6,6 +6,7 @@ use_frameworks!
 target 'YumeNote' do
   pod "Alamofire"
   pod "SwiftyJSON"
+  pod "PagingMenuController"
 end
 
 target 'YumeNoteTests' do
