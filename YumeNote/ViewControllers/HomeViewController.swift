@@ -7,13 +7,32 @@
 //
 
 import UIKit
+import PagingMenuController
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let storyboard = UIStoryboard(name: "HomeViewController", bundle: nil)
+        
+        let ranking = storyboard.instantiateViewControllerWithIdentifier("Ranking") as! RankingViewController
+        ranking.title = "ランキング"
+        
+        let newly = storyboard.instantiateViewControllerWithIdentifier("Newly") as! NewlyViewController
+        newly.title = "新着"
+        
+        let viewControllers = [ranking, newly]
+        
+        let options = PagingMenuOptions()
+        options.menuHeight = 50
+        options.menuDisplayMode = .SegmentedControl
+        
+        let pagingMenuController = self.childViewControllers.first as! PagingMenuController
+        pagingMenuController.delegate = self
+        pagingMenuController.setup(viewControllers: viewControllers, options: options)
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +51,8 @@ class HomeViewController: UIViewController {
     }
     */
 
+}
+
+extension HomeViewController: PagingMenuControllerDelegate {
+    
 }
