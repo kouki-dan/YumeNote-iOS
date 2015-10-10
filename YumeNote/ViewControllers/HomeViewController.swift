@@ -16,15 +16,16 @@ class HomeViewController: UIViewController{
 
         // Do any additional setup after loading the view.
         
-        let storyboard = UIStoryboard(name: "HomeViewController", bundle: nil)
-        
-        let ranking = storyboard.instantiateViewControllerWithIdentifier("Ranking") as! RankingViewController
+        let ranking = YumeListViewController.instantiateFromResource()
         ranking.title = "ランキング"
-        
-        let newly = storyboard.instantiateViewControllerWithIdentifier("Newly") as! NewlyViewController
+        ranking.notes = [Note(), Note(), Note()]
+        let newly = YumeListViewController.instantiateFromResource()
         newly.title = "新着"
+        newly.notes = [Note(), Note(), Note()]
         
-        let viewControllers = [ranking, newly]
+        
+        
+        let viewControllers: [UIViewController] = [ranking, newly]
         
         let options = PagingMenuOptions()
         options.menuHeight = 50

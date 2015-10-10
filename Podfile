@@ -7,6 +7,7 @@ target 'YumeNote' do
   pod "Alamofire"
   pod "SwiftyJSON"
   pod "PagingMenuController"
+  pod "RealmSwift"
 end
 
 target 'YumeNoteTests' do
