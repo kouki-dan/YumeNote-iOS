@@ -192,7 +192,9 @@
                             <constraint firstItem="wbV-kq-ye6" firstAttribute="leading" secondItem="Z7w-9z-kE0" secondAttribute="leading" id="RXx-CM-gMg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="Hkk-WD-Be0"/>
+                    <navigationItem key="navigationItem" title="Home" id="Hkk-WD-Be0">
+                        <barButtonItem key="leftBarButtonItem" title="Category" id="WfD-Hb-OK3"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ryu-jQ-55R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

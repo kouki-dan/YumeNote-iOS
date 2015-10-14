@@ -21,6 +21,8 @@
 		1E3824431BC8F45A00550E35 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3824421BC8F45A00550E35 /* User.swift */; settings = {ASSET_TAGS = (); }; };
 		1E3824471BC8F73400550E35 /* YumeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3824451BC8F73400550E35 /* YumeListTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		1E3824481BC8F73400550E35 /* YumeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3824461BC8F73400550E35 /* YumeListTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		1E6DF1DB1BCDFA9700DA2943 /* YumeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DF1DA1BCDFA9700DA2943 /* YumeDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1E6DF1DD1BCDFAAA00DA2943 /* YumeDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6DF1DC1BCDFAAA00DA2943 /* YumeDetailViewController.storyboard */; settings = {ASSET_TAGS = (); }; };
 		1E6F78991BC2C16E00374145 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F78981BC2C16E00374145 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		1E6F789D1BC2C78B00374145 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F789C1BC2C78B00374145 /* MainTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
 		1E6F789F1BC2C8F000374145 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F789E1BC2C8F000374145 /* ExploreViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -72,6 +74,8 @@
 		1E3824421BC8F45A00550E35 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1E3824451BC8F73400550E35 /* YumeListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumeListTableViewCell.swift; sourceTree = "<group>"; };
 		1E3824461BC8F73400550E35 /* YumeListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YumeListTableViewCell.xib; sourceTree = "<group>"; };
+		1E6DF1DA1BCDFA9700DA2943 /* YumeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumeDetailViewController.swift; sourceTree = "<group>"; };
+		1E6DF1DC1BCDFAAA00DA2943 /* YumeDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YumeDetailViewController.storyboard; sourceTree = "<group>"; };
 		1E6F78981BC2C16E00374145 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1E6F789C1BC2C78B00374145 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1E6F789E1BC2C8F000374145 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +236,7 @@
 				1E6F78A41BC2CA0200374145 /* MoreViewController.swift */,
 				1E6F789C1BC2C78B00374145 /* MainTabBarController.swift */,
 				1E3824381BC8F33D00550E35 /* YumeListViewController.swift */,
+				1E6DF1DA1BCDFA9700DA2943 /* YumeDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			children = (
 				1E6F78AE1BC40E4300374145 /* HomeViewController.storyboard */,
 				1E38243A1BC8F36000550E35 /* YumeListViewController.storyboard */,
+				1E6DF1DC1BCDFAAA00DA2943 /* YumeDetailViewController.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -383,6 +389,7 @@
 				1E0614A21BB6C6280015A932 /* Assets.xcassets in Resources */,
 				1E3824481BC8F73400550E35 /* YumeListTableViewCell.xib in Resources */,
 				1E38243B1BC8F36000550E35 /* YumeListViewController.storyboard in Resources */,
+				1E6DF1DD1BCDFAAA00DA2943 /* YumeDetailViewController.storyboard in Resources */,
 				1E0614A01BB6C6280015A932 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +469,7 @@
 				1E3824391BC8F33D00550E35 /* YumeListViewController.swift in Sources */,
 				1E06149B1BB6C6280015A932 /* AppDelegate.swift in Sources */,
 				1E3824471BC8F73400550E35 /* YumeListTableViewCell.swift in Sources */,
+				1E6DF1DB1BCDFA9700DA2943 /* YumeDetailViewController.swift in Sources */,
 				1E6F78A31BC2C9F700374145 /* NotificationViewController.swift in Sources */,
 				1E6F78B31BC40F5900374145 /* NewlyViewController.swift in Sources */,
 				1E6F789F1BC2C8F000374145 /* ExploreViewController.swift in Sources */,

@@ -8,7 +8,13 @@
 
 import UIKit
 
+protocol YumeListTableViewDelegate: class {
+    func yumeListTableView(yumeListTableView: YumeListTableView, didSelectNote: Note)
+}
+
 class YumeListTableView: UITableView {
+    
+    var yumeListTableViewDelegate: YumeListTableViewDelegate?
     var notes: [Note]! {
         didSet {
             self.delegate = self
@@ -36,7 +42,11 @@ class YumeListTableView: UITableView {
 
 // MARK: - UITableViewDelegate
 extension YumeListTableView: UITableViewDelegate {
-    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        self.deselectRowAtIndexPath(indexPath, animated: false)
+        self.yumeListTableViewDelegate?.yumeListTableView(self, didSelectNote: notes[indexPath.row])
+    }
 }
 
 // MARK: - UITableViewDataSource
@@ -48,7 +58,8 @@ extension YumeListTableView: UITableViewDataSource {
         return UITableViewCell()
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return notes.count
+        
     }
 }
 

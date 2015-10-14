@@ -12,7 +12,11 @@ class YumeListViewController: UIViewController, StoryboardInstantiatable {
     static var storyboardName = "YumeListViewController"
     
     var notes = [Note]()
-    @IBOutlet weak var tableView: YumeListTableView!
+    @IBOutlet weak var tableView: YumeListTableView! {
+        didSet {
+            tableView.yumeListTableViewDelegate = self
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,4 +41,11 @@ class YumeListViewController: UIViewController, StoryboardInstantiatable {
     }
     */
     
+}
+
+extension YumeListViewController: YumeListTableViewDelegate {
+    func yumeListTableView(yumeListTableView: YumeListTableView, didSelectNote: Note) {
+        let vc = YumeDetailViewController.instantiateFromResource()
+        showViewController(vc, sender: self)
+    }
 }

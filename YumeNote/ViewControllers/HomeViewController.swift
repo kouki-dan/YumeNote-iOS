@@ -18,7 +18,7 @@ class HomeViewController: UIViewController{
         
         let ranking = YumeListViewController.instantiateFromResource()
         ranking.title = "ランキング"
-        ranking.notes = [Note(), Note(), Note()]
+        ranking.notes = (1..<15).map({ (_) in return Note() })
         let newly = YumeListViewController.instantiateFromResource()
         newly.title = "新着"
         newly.notes = [Note(), Note(), Note()]
