@@ -31,9 +31,10 @@ class HomeViewController: UIViewController{
         options.menuHeight = 50
         options.menuDisplayMode = .SegmentedControl
         
-        let pagingMenuController = self.childViewControllers.first as! PagingMenuController
-        pagingMenuController.delegate = self
-        pagingMenuController.setup(viewControllers: viewControllers, options: options)
+        if let pagingMenuController = self.childViewControllers.first as? PagingMenuController {
+            pagingMenuController.delegate = self
+            pagingMenuController.setup(viewControllers: viewControllers, options: options)
+        }
     }
 
     override func didReceiveMemoryWarning() {
